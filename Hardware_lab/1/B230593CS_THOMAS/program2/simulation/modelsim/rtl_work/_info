@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/hw_lab/b230593cs/program2/simulation/modelsim
+vfsb
+Z1 !s110 1722593867
+!i10b 1
+!s100 lTBBn]deK=j^I>KBmWb?a1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW6=XeJLm4c4T<lkBR339h2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1722593376
+8/home/hw_lab/b230593cs/program2/fsb.v
+F/home/hw_lab/b230593cs/program2/fsb.v
+!i122 0
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1722593867.000000
+!s107 /home/hw_lab/b230593cs/program2/fsb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/hw_lab/b230593cs/program2|/home/hw_lab/b230593cs/program2/fsb.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program2
+Z8 tCvgOpt 0
+vfsb8
+R1
+!i10b 1
+!s100 3YSa6`_1j]nDm<`LlO:Tk1
+R2
+Im=P_`0VC>ZIYCHzjSZ00X1
+R3
+R0
+w1722593729
+8/home/hw_lab/b230593cs/program2/fsb8.v
+F/home/hw_lab/b230593cs/program2/fsb8.v
+!i122 1
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/hw_lab/b230593cs/program2/fsb8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/hw_lab/b230593cs/program2|/home/hw_lab/b230593cs/program2/fsb8.v|
+!i113 1
+R6
+R7
+R8
+vfsb8_tb
+R1
+!i10b 1
+!s100 UDEF4X7Je52m9MS;;fQ]:2
+R2
+I7H@ZYgHBM=T69z<l3Rm9L0
+R3
+R0
+w1722593680
+8/home/hw_lab/b230593cs/program2/fsb8_tb.v
+F/home/hw_lab/b230593cs/program2/fsb8_tb.v
+!i122 2
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/hw_lab/b230593cs/program2/fsb8_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/hw_lab/b230593cs/program2|/home/hw_lab/b230593cs/program2/fsb8_tb.v|
+!i113 1
+R6
+R7
+R8

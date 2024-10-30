@@ -1,0 +1,93 @@
+|dlatch8
+en => en.IN8
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+out[0] << dlatch1:d0.port2
+out[1] << dlatch1:d1.port2
+out[2] << dlatch1:d2.port2
+out[3] << dlatch1:d3.port2
+out[4] << dlatch1:d4.port2
+out[5] << dlatch1:d5.port2
+out[6] << dlatch1:d6.port2
+out[7] << dlatch1:d7.port2
+r => r.IN8
+
+
+|dlatch8|dlatch1:d0
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d1
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d2
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d3
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d4
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d5
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d6
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+
+|dlatch8|dlatch1:d7
+en => y1.IN0
+en => y2.IN0
+d => y1.IN1
+d => y2.IN1
+out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+r => comb.IN0
+
+

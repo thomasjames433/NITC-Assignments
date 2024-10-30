@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/simulation/modelsim
+valu
+Z1 !s110 1723138428
+!i10b 1
+!s100 j6lkki?59]H6J6okB]WdD3
+IWDBY@PUhL7bHWTn><jT^V2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1723138302
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1723138428.000000
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3}
+Z7 tCvgOpt 0
+valu_tb
+Z8 !s110 1723138429
+!i10b 1
+!s100 6O5VOR[0_On]3c3TEc:S?0
+I5XZZNA89mW^TIVKZa;j<S0
+R2
+R0
+w1723126358
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1723138429.000000
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vbwxor
+R1
+!i10b 1
+!s100 ]^AiGaCY:i_ECl8AQRQ4J0
+INSV19cB]3bD39NmSA_zTX1
+R2
+R0
+Z10 w1722604621
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v|
+!i113 1
+R5
+R6
+R7
+vfad
+R1
+!i10b 1
+!s100 Di]ghdRd2RO5D3T?]o^8J0
+ICHJODj>oTUK:eEGIkDZkk2
+R2
+R0
+R10
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v|
+!i113 1
+R5
+R6
+R7
+vfad8
+R1
+!i10b 1
+!s100 YWY0^]P6dV]n0h5^Qe8AC1
+IY4E5QjVSFR9V>KUOc<kHJ0
+R2
+R0
+w1723137158
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v|
+!i113 1
+R5
+R6
+R7
+vfsb
+R1
+!i10b 1
+!s100 l@jW]@6izzzCnWYETUZR03
+I@dbRFbz6V3nV5l4VY;L0D2
+R2
+R0
+R10
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v|
+!i113 1
+R5
+R6
+R7
+vfsb8
+R1
+!i10b 1
+!s100 3DCfi7@j4^:LA>nk2B2z;1
+IKf:oTEV6Vjg1Uc=>Y]OO_3
+R2
+R0
+w1723137155
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v|
+!i113 1
+R5
+R6
+R7
+vls
+R8
+!i10b 1
+!s100 g[SO3;oeI3708HB2:1C>H2
+Ik>lggj9hg[zY5]`N2b;@X1
+R2
+R0
+w1723126191
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v|
+!i113 1
+R5
+R6
+R7
+vmux
+R8
+!i10b 1
+!s100 oB]IMFXF5OR8WlGQoUeJm2
+I:oL64fCbgnM>X7cmB=5j13
+R2
+R0
+w1723126672
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v|
+!i113 1
+R5
+R6
+R7
+vmux8
+R8
+!i10b 1
+!s100 ;11meMPmICXjN2h6khJbz0
+IPUX];m:iWV=7?DNF8HOTk3
+R2
+R0
+w1723137759
+8C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v
+FC:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3|C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v|
+!i113 1
+R5
+R6
+R7

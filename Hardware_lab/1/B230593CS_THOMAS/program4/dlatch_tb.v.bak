@@ -1,0 +1,11 @@
+module B230215CS_ASWIN_4_TB;
+reg [7:0] d;
+reg en,r;
+wire[7:0] out;
+B230215CS_ASWIN_4 m6(en,d,out,r);
+integer i,j,k;
+initial begin
+d=24;r=0;k=1;
+
+end
+endmodule

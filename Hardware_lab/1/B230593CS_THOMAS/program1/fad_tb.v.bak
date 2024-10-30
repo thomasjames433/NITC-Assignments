@@ -1,0 +1,27 @@
+module fad_tb;
+reg a,b,c;
+wire sum,carry;
+fad f1(sum,carry,a,b,c);
+
+initial begin
+$monitor("sum=%b,carry=%b,a=%b,b=%b,c=%b",sum,carry,a,b,c);
+
+c=0;
+a=0;b=0;
+#10
+a=1;b=0;
+#10
+a=0;b=1;
+#10
+a=1;b=1;
+#10
+c=1;
+a=0;b=0;
+#10
+a=1;b=0;
+#10
+a=0;b=1;
+#10
+a=1;b=1;
+end
+endmodule

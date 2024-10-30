@@ -1,0 +1,116 @@
+|fad8
+sum[0] << fad:fa0.port0
+sum[1] << fad:fa1.port0
+sum[2] << fad:fa2.port0
+sum[3] << fad:fa3.port0
+sum[4] << fad:fa4.port0
+sum[5] << fad:fa5.port0
+sum[6] << fad:fa6.port0
+sum[7] << fad:fa7.port0
+carry << fad:fa7.port1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+
+
+|fad8|fad:fa0
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa2
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa3
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa4
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa5
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa6
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+
+|fad8|fad:fa7
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+carry <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => x1.IN0
+a => a1.IN0
+b => x1.IN1
+b => a1.IN1
+c => comb.IN1
+c => a2.IN1
+
+

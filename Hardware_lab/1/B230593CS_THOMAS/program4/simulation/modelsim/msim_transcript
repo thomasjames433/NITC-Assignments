@@ -1,0 +1,75 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do dlatch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program4 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:38 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch.v 
+# -- Compiling module dlatch1
+# 
+# Top level modules:
+# 	dlatch1
+# End time: 23:47:38 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program4 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:38 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch8.v 
+# -- Compiling module dlatch8
+# 
+# Top level modules:
+# 	dlatch8
+# End time: 23:47:38 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program4 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:47:38 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program4/dlatch_tb.v 
+# -- Compiling module dlatch_tb
+# 
+# Top level modules:
+# 	dlatch_tb
+# End time: 23:47:38 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  dlatch_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" dlatch_tb 
+# Start time: 23:47:38 on Aug 08,2024
+# Loading work.dlatch_tb
+# Loading work.dlatch8
+# Loading work.dlatch1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 23:48:18 on Aug 08,2024, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0

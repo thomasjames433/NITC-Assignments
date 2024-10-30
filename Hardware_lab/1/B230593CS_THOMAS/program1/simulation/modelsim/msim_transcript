@@ -1,0 +1,75 @@
+# do fad_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program1 {/home/hw_lab/b230593cs/program1/fad.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:39 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program1" /home/hw_lab/b230593cs/program1/fad.v 
+# -- Compiling module fad
+# 
+# Top level modules:
+# 	fad
+# End time: 15:32:39 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program1 {/home/hw_lab/b230593cs/program1/fad8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:39 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program1" /home/hw_lab/b230593cs/program1/fad8.v 
+# -- Compiling module fad8
+# 
+# Top level modules:
+# 	fad8
+# End time: 15:32:39 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program1 {/home/hw_lab/b230593cs/program1/fad8_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:32:39 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program1" /home/hw_lab/b230593cs/program1/fad8_tb.v 
+# -- Compiling module fad8_tb
+# 
+# Top level modules:
+# 	fad8_tb
+# End time: 15:32:39 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  fad8_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" fad8_tb 
+# Start time: 15:32:40 on Aug 02,2024
+# Loading work.fad8_tb
+# Loading work.fad8
+# Loading work.fad
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'c'. The port definition is at: /home/hw_lab/b230593cs/program1/fad.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /fad8_tb/f1/fa0 File: /home/hw_lab/b230593cs/program1/fad8.v Line: 7
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# sum=01100010,carry=0,a=00100010,b=01000000
+# sum=00000000,carry=1,a=11111111,b=00000001
+# sum=10100110,carry=0,a=01111011,b=00101011
+# sum=00101010,carry=1,a=10000110,b=10100100
+# sum=11101110,carry=0,a=01001010,b=10100100
+# 
+# stdin: <EOF>
+# WARNING: No extended dataflow license exists
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 15:39:16 on Aug 02,2024, Elapsed time: 0:06:36
+# Errors: 0, Warnings: 1

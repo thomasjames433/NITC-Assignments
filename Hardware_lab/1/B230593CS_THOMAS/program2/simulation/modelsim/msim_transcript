@@ -1,0 +1,67 @@
+# do fsb8_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/intelFPGA_lite/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program2 {/home/hw_lab/b230593cs/program2/fsb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:47:47 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program2" /home/hw_lab/b230593cs/program2/fsb.v 
+# -- Compiling module fsb
+# 
+# Top level modules:
+# 	fsb
+# End time: 15:47:47 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program2 {/home/hw_lab/b230593cs/program2/fsb8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:47:47 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program2" /home/hw_lab/b230593cs/program2/fsb8.v 
+# -- Compiling module fsb8
+# 
+# Top level modules:
+# 	fsb8
+# End time: 15:47:47 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program2 {/home/hw_lab/b230593cs/program2/fsb8_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:47:47 on Aug 02,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/hw_lab/b230593cs/program2" /home/hw_lab/b230593cs/program2/fsb8_tb.v 
+# -- Compiling module fsb8_tb
+# 
+# Top level modules:
+# 	fsb8_tb
+# End time: 15:47:47 on Aug 02,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  fsb8_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" fsb8_tb 
+# Start time: 15:47:47 on Aug 02,2024
+# Loading work.fsb8_tb
+# Loading work.fsb8
+# Loading work.fsb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'c'. The port definition is at: /home/hw_lab/b230593cs/program2/fsb.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /fsb8_tb/f1/fa0 File: /home/hw_lab/b230593cs/program2/fsb8.v Line: 7
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# dif=11100010,bor=1,a=00100010,b=01000000
+# dif=11111110,bor=0,a=11111111,b=00000001
+# dif=01010000,bor=0,a=01111011,b=00101011
+# dif=11100010,bor=1,a=10000110,b=10100100
+# dif=10100110,bor=1,a=01001010,b=10100100
+# 
+# stdin: <EOF>
+# End time: 15:48:25 on Aug 02,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 1

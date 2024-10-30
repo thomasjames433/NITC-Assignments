@@ -1,0 +1,14 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/alu.v}
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/fad.v}
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/fad8.v}
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/fsb.v}
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/bwxor.v}
+vlog -vlog01compat -work work +incdir+/home/hw_lab/b230593cs/program3 {/home/hw_lab/b230593cs/program3/ls.v}
+

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Aug 08 23:46:43 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : dlatch
+Top-level Entity Name : dlatch8
+Family : MAX 10
+Total logic elements : 16
+    Total combinational functions : 16
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

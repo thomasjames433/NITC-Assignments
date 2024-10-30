@@ -1,0 +1,13 @@
+module dlatch(clk,d,out,reset);
+input clk;
+input d;
+input reset;
+output out;
+wire  y0,y1,y2,y3,y4;
+not(y0,d);
+nand(y1,clk,d);
+nand(y2,y0,clk);
+nand(y3,y4,y1);
+nand(y4,y3,y2);
+and(out,reset,y3);
+endmodule

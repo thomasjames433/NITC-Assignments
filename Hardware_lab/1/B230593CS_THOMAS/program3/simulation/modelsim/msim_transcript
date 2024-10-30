@@ -1,0 +1,165 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do alu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v 
+# -- Compiling module fad
+# 
+# Top level modules:
+# 	fad
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v 
+# -- Compiling module fad8
+# 
+# Top level modules:
+# 	fad8
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v 
+# -- Compiling module fsb
+# 
+# Top level modules:
+# 	fsb
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v 
+# -- Compiling module fsb8
+# 
+# Top level modules:
+# 	fsb8
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/bwxor.v 
+# -- Compiling module bwxor
+# 
+# Top level modules:
+# 	bwxor
+# End time: 23:03:48 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:48 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/ls.v 
+# -- Compiling module ls
+# 
+# Top level modules:
+# 	ls
+# End time: 23:03:49 on Aug 08,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:49 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 23:03:49 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:49 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v 
+# -- Compiling module mux8
+# 
+# Top level modules:
+# 	mux8
+# End time: 23:03:49 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/AA\ AAAAA/NITC/Sem3/Hardware\ lab/b230593cs/program3 {C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:49 on Aug 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3" C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu_tb.v 
+# -- Compiling module alu_tb
+# 
+# Top level modules:
+# 	alu_tb
+# End time: 23:03:49 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
+# Start time: 23:03:49 on Aug 08,2024
+# Loading work.alu_tb
+# Loading work.alu
+# Loading work.fad8
+# Loading work.fad
+# Loading work.fsb8
+# Loading work.fsb
+# Loading work.bwxor
+# Loading work.ls
+# Loading work.mux8
+# Loading work.mux
+# ** Warning: (vsim-3015) C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad8.v(6): [PCDPC] - Port size (1) does not match connection size (32) for port 'c'. The port definition is at: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/a1/fa1/fa0 File: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fad.v
+# ** Warning: (vsim-3015) C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb8.v(6): [PCDPC] - Port size (1) does not match connection size (32) for port 'c'. The port definition is at: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/a1/fs1/fa0 File: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/fsb.v
+# ** Warning: (vsim-3015) C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/alu.v(14): [PCDPC] - Port size (8) does not match connection size (1) for port 'd'. The port definition is at: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/a1/m2 File: C:/AA AAAAA/NITC/Sem3/Hardware lab/b230593cs/program3/mux8.v
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hw_lab  Hostname: debian-41  ProcessID: 16775
+#           Attempting to use alternate WLF file "./wlft8nen53".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8nen53
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 23:04:14 on Aug 08,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 5

@@ -1,0 +1,17 @@
+module ls(lssum,lscarry,a);
+input [7:0]a;
+output [7:0]lssum;
+output lscarry;
+
+or(lscarry,0,a[7]);
+
+or(lssum[7],0,a[6]);
+or(lssum[6],0,a[5]);
+or(lssum[5],0,a[4]);
+or(lssum[4],0,a[3]);
+or(lssum[3],0,a[2]);
+or(lssum[2],0,a[1]);
+or(lssum[1],0,a[0]);
+or(lssum[0],0,0);
+
+endmodule

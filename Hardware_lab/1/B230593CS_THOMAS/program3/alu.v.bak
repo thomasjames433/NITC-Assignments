@@ -1,0 +1,4 @@
+module alu(sum,carry,dif,bor,bxor,ls,a,b);
+input [7:0]a,b;
+output [7:0] sum,dif,bxor,ls;
+output  carry,bor;

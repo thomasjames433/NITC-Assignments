@@ -1,0 +1,14 @@
+module alu_tb;
+reg [7:0]a,b;
+wire [7:0] sum,dif,bxor,lssa,lssb;
+wire  carry,bor,lsca,lscb;
+
+alu a1(sum,carry,dif,bor,bxor,lssa,lsca,lssb,lscb,a,b);
+
+initial begin
+$monitor("sum=%b,carry=%b,dif=%b,bor=%b,bxor=%b,lssa=%b,lsca=%b,lssb=%b,lscb=%b,a=%b,b=%b",sum,carry,dif,bor,bxor,lssa,lsca,lssb,lscb,a,b);
+
+a=100;b=150;
+
+end 
+endmodule
